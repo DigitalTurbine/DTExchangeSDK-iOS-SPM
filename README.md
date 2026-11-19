@@ -8,11 +8,11 @@
 
 1. Add Dependency.
    In Xcode.
-   Open Xcode -> `File` -> `Add Package Dependencies...` -> `Enter Package URL`: `https://github.com/inner-active/DTExchangeSDK-iOS-SPM` -> Select `dtexchangesdk-ios-spm` -> `Add Package`
+   Open Xcode -> `File` -> `Add Package Dependencies...` -> `Enter Package URL`: `https://github.com/DigitalTurbine/DTExchangeSDK-iOS-SPM` -> Select `dtexchangesdk-ios-spm` -> `Add Package`
    Or add it to the `dependencies` of your `Package.swift`.
    ```
    dependencies: [
-    .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM", .upToNextMajor(from: "8.4.2"))
+    .package(url: "https://github.com/DigitalTurbine/DTExchangeSDK-iOS-SPM", .upToNextMajor(from: "8.4.2"))
    ]
    ```
 2. Add `-ObjC` flag.
